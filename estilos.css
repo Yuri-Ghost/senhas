@@ -1,9 +1,8 @@
 body {
     background-color: #025809;
-    
+    text-align: center;
 }
 
 .cadeado {
     width: 10%;
-    justify-content: center;
 }
