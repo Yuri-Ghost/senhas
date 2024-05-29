@@ -1,3 +1,8 @@
 body {
     background-color: #025809;
+    justify-content: center;
+}
+
+.cadeado {
+    width: 50%;
 }
