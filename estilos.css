@@ -5,6 +5,7 @@
     --borda: #000000;
     --fundo-texto: #00850d;
     --fundo-senha: #00850d;
+    --branco: #ffffff;
 }
 
 body {
@@ -98,9 +99,18 @@ body {
 
 .parametro-senha____botao{
     background-color: var(--fundo-texto);
-
-
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
 }
+
+.parametro-senha__texto{
+    padding: 24px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin: 0;
+}
+
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
