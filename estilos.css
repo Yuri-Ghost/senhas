@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+:root{
+    --borda: #000000;
+    --fundo-texto: #37c445;
+    --fundo-senha: #37c445;
+}
+
 body {
     background-color: #025809;
     text-align: center;
@@ -27,7 +33,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
-    color: aliceblue;
+    color: white
 }
 
 .conteudo-senha{
@@ -41,7 +47,7 @@ body {
     background-color: var(--fundo-senha);
     border: none;
     color: var(--branco);
-    font-family: var(--roboto-mono);
+    font-family: "Lora", serif;
     font-size: 40px;
     width: 70%;
 }
@@ -64,7 +70,7 @@ body {
 }
 
 .parametro-titulo{
-    font-family: var(--roboto-mono);
+    font-family: "Lora", serif;
     font-size: 38px;
 }
 
