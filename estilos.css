@@ -13,10 +13,8 @@ body {
     padding: 56px;
 }
 
-.titulo-cadeado {
-    width: 10%;
-    justify-content: center;
-}
+
+
 .titulo{
     font-family: "Jacquard 12", system-ui;
     font-weight: 400;
